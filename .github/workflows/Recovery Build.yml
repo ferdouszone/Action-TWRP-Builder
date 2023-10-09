@@ -3,10 +3,10 @@ name: Recovery Build
 on:
   workflow_dispatch:
     inputs:
-      MANIFEST_URL:https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
-        description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
+      MANIFEST_URL:https://github.com/ferdouszone/platform_manifest_twrp_aosp.git
+        description: 
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
+        default: 
       MANIFEST_BRANCH:twrp-12.1
         description: 'MANIFEST_BRANCH'
         required: true
